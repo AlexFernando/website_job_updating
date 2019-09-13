@@ -366,6 +366,8 @@ details styles ends*/
 
 
 /*contacto + maps styles*/
+
+
 #contact{
     color: black;
     background-color: white; /*rgb(235, 233, 233)*/
@@ -406,7 +408,7 @@ details styles ends*/
 
 
 @media (max-width: 575.98px) {
-    #contact{padding-bottom: 1100px;}
+ 
     #contact .maps iframe{
         width: 100%;
         height: 450px;
@@ -414,10 +416,15 @@ details styles ends*/
     #contact .contact-size {
         height: 560px;
     }
+
+    #contact .my-google-form {
+        width: 100%;
+        height: 1920px;
+    }
 }
 
 @media (min-width: 576px) {
-    #contact{padding-bottom: 900px;}
+
     #contact .maps iframe{
         width: 100%;
         height: 450px;
@@ -425,12 +432,14 @@ details styles ends*/
     #contact .contact-size {
         height: 600px;
     }
+
+    #contact .my-google-form {
+        width: 100%;
+        height: 1490px;
+    }
 }
 
 @media (min-width: 768px) {
-
-    #contact{padding-bottom: 500px;}
-
     #contact .maps iframe{
         width: 100%;
         height: 850px;
@@ -438,10 +447,15 @@ details styles ends*/
     #contact .contact-size {
         height: 650px;
     }
+
+    #contact .my-google-form {
+        width: 100%;
+        height: 1490px;
+    }
 }
 
 @media (min-width: 992px) {
-    #contact{padding-bottom: 250px;}
+
     #contact .maps iframe{
         width: 100%;
         height: 700px;
