@@ -146,7 +146,7 @@ $(function() {
             "REVIEWS": "Reviews",
             "CONTACTNAV": "Contact",
 	    "FAQS": "FAQ'S",
-	    "MORETOURS": "MoreTours",
+	    "MORETOURS": "Itinerary",
 	    
             "HOME_H2": "By Locals",
             "HOME_BUTTON1": "Book now!",
@@ -297,7 +297,7 @@ $(function() {
             "REVIEWS": "Reseñas",
             "CONTACTNAV": "Contacto",
 	    "FAQS": "Preguntas",
-	    "MORETOURS": "Tours",
+	    "MORETOURS": "Itineraio",
 	    
 
             "HOME_H2": "Por Locales",

@@ -46,8 +46,8 @@ h1, h2, h3, h4, h5, h6 {
 /*home styles starts*/
 .bgimage {
     width:100%;
-    height: 900px;
-    background: url('../images/background_image.jpeg')no-repeat;
+    height: 800px;
+    background: url('../images/main_sqaure_cool_edit_1.jpg')no-repeat;
     background-position: center;
     background-size:cover;
     background-attachment: fixed;
@@ -166,17 +166,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .peopleCarouselImg .widerImage {
-    width: 720px;
-    max-width: 720px;
-    height: 320px;
-    max-height:320px;
+    width: 620px;
+    max-width: 620px;
+    height: 280px;
+    max-height:280px;
 }
 
 .peopleCarouselImg img {
     width: 100%;
-    max-width: 720px;
+    max-width: 620px;
     height: 100%;
-    max-height:480px;
+    max-height:360px;
 }
 
 
@@ -201,7 +201,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #wild-carousel {
-    background-color: rgb(235, 233, 233); /*rgba(245, 118, 0, 0.8)*/;
+    background-color: white; /*rgba(245, 118, 0, 0.8)*/;
 }
 
 
@@ -287,7 +287,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*card styles starts*/
 #wild-card {
-    background-color:rgb(219, 218, 218);/*#CAFAFE*/
+    background-color: white;/*#CAFAFE*/
     padding-bottom: 5rem;
 }
 
@@ -295,7 +295,6 @@ h1, h2, h3, h4, h5, h6 {
     width: 18rem;
     background-color: #CAFAFE; /*#97CAEF;*/
 }
-
 
 
 #wild-card h5 {
@@ -645,6 +644,165 @@ details styles ends*/
 }
 
  /**Footer**/
+
+/**All tours Section**/
+.details-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-title {
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  letter-spacing: .3rem;
+  padding: 0 0 2rem 0;
+}
+@media(min-width:768px) {
+  .main-title {
+      padding: 2rem 0 2rem 0;
+  }
+}
+.main-title::after {
+  height: .3rem;
+  width: 4rem;
+  background-color:white;
+  content: '';
+  display: block;
+  margin: 1.2rem auto 0 auto;    
+}
+
+.details-section .details-main-title{
+    color: white;
+}
+
+.container-cards{
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 7px 7px 7px 7px;
+    /* VIA CSS MATIC https://goo.gl/cIbnS */
+    -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    margin-bottom: 2rem; 
+    background-color: rgb(224, 118, 64);
+  }
+
+  @media(min-width: 900px) {
+
+    .container-cards{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .wrapper-card {
+        flex-direction: row;
+        flex: 0 0 calc(50% - 2rem);  
+    }
+  }
+
+  .product-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex: 0 0 calc(50%);
+  }
+
+  @media(max-width: 900px){
+    .product-img .alternative-image {
+      display: none;
+    }
+  }
+  
+  .product-img img {
+    border-radius: 7px 0 0 7px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .product-info {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 7px 10px 7px; 
+    padding: 20px;
+  }
+
+  .product-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .product-text h1 {
+    margin: 0;
+    padding-top: 20px;
+    font-size: 34px;
+  }
+  
+  .product-text h1,
+  .product-price-btn p {
+    font-family: 'Bentham', serif;
+  }
+  
+  .product-text h2 {
+    margin: 0 0 20px 0;
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #d2d2d2;
+  }
+  
+  .product-text p {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    line-height: 1.7em;
+    font-size: 15px;
+    font-weight: lighter;
+    color:white;
+  }
+
+  .product-price-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 17px;
+  }
+
+  .btn {
+    margin: 10px 0 10px 0;
+    color: white;
+    background-color: #539CFF;
+    padding: .75rem 1.5rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    font-size: .9rem;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    }
+
+.btn:hover{
+    background-color: #2180d8;
+}
+
+.btn:focus{
+    background-color: #2180d8;
+}
+/**all tours section ends**/
 
 /*Animations only desktop or similar*/
 
