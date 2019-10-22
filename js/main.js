@@ -142,11 +142,11 @@ $(function() {
         "en-gb": {
             "HOMEPAGE": "Home",
             "ABOUT": "About Us",
-            "FREETOURS": "FreeTours",
+            "navbarDropdown": "FreeTours",
             "REVIEWS": "Reviews",
             "CONTACTNAV": "Contact",
 	    "FAQS": "FAQ'S",
-	    "MORETOURS": "MoreTours",
+	    "MORETOURS": "Itinerary",
 	    
             "HOME_H2": "By Locals",
             "HOME_BUTTON1": "Book now!",
@@ -156,7 +156,7 @@ $(function() {
 	    "TITLE_ABOUT": "WHY CHOOSE US?",
 	    "P1_ABOUT": "Wild free walking tour cusco is operated by a 100% local company, we have been working in Cusco for 3 years, our local guides are accredited professionals, each tour is focused on history, traditions and local culture.",
             "P2_ABOUT": "The best way to discover a WONDERFUL city like Cusco is walking, and there’s no better, that doing it accompanied by one of our local guides. We make your time a valuable moment, which you will not forget. We have 3 daily departure times: 10:00 am, 12:30 pm and 03:00 pm. Each group is of maximum 15 people. We have separate groups, in both English and Spanish.",
-	    "P3_ABOUT": "IMPORTANT: DO NOT get confused by other people who claim to be local guides and you will waste your time with false or google information. Our company is the only local company authorized by the Peruvian government. Any doubts? You can check our real comments from our visitors on: ",
+	    "P3_ABOUT": "IMPORTANT: DO NOT get confused by other people who claim to be local guides and you will waste your time with false or google information. Our company is the only local company authorized by the Peruvian government. Any doubts? You can check our real comments from our visitors on our social networks",
 	    "FOOTER_ABOUT": "Casio Valdéz - General Manager",
 
             "CAROUSEL_H2": "About us",
@@ -240,7 +240,7 @@ $(function() {
             "REVIEWS_H5_2": "Badges",
             "REVIEWS_H5_3": "Give us a Like",
 
-            "CONTACT_H2_1": "Meeting Point",
+            "CONTACT_H2_1": "Meeting Point ~ Plazoleta Espinar (In front of \"La Merced\" church)",
             "yourForm": "Contact",
             "CONTACT_H5_1": "Choose your Schedule",
             "CONTACT_LABEL_1": "First group at 10:00 am, every day",
@@ -293,11 +293,11 @@ $(function() {
         "es": {
             "HOMEPAGE": "Inicio",
             "ABOUT": "Nosotros",
-            "FREETOURS": "FreeTours",
+            "navbarDropdown": "FreeTours",
             "REVIEWS": "Reseñas",
             "CONTACTNAV": "Contacto",
 	    "FAQS": "Preguntas",
-	    "MORETOURS": "Tours",
+	    "MORETOURS": "Itineraio",
 	    
 
             "HOME_H2": "Por Locales",

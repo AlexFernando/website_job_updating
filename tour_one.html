@@ -19,6 +19,7 @@
 
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tours.css">
     
     <!--favicon.ico links-->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -39,8 +40,7 @@
     </style>
 </head>
 <body data-spy="scroll" data-target="#navbar1" data-offset="70">
- 
-
+    
     <nav id="navbar1" class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #272727;"> 
             <!--#006400;-->
         <!--<a class="navbar-brand" href="#home">
@@ -77,39 +77,194 @@
             </div>
     </nav>
 
-    <div class="container-fluid" id="contact">
-        <div class="row mt-5">
-            <div class="container">
-                    <div class="col-md-12">
-                            <h2 class="lang  text-uppercase my-5 font-weight-bold waypoint text-center" data-animation="slide-Down" id="yourForm">Contact</h2>
-            
-                            <div>
-                                    <iframe class="my-google-form" src="https://docs.google.com/forms/d/e/1FAIpQLSevrTQ6-ZN9qdzcqqG-gEHzW1pql9gvPYE8_oaiDM_M09uJ3A/viewform?embedded=true"  frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
-                            </div>
-            
-                            <div class="moreInfo text-center mt-5">
-                                <h2 class="lang text-uppercase font-weight-bold" id="MORE_INFO">More information?</h2>
-            
-                                
-                                    <i class="fab fa-whatsapp"></i> <a href="tel:+">+51 974773203</a><br>
-                                    <i class="fa fa-envelope"></i> <a href="mailto:wildfreewalkingtours@gmail.com">wildfreewalkingtours@gmail.com</a><br>
-                                    <i class="fas fa-globe" ></i> <span class="lang" id="ADDRESS">Marquez 219 Street, 2nd Floor-Office 206 </span> <br>
-                                
-                                <!--<div class="my-4">
-                                    <a href="https://www.facebook.com/WildFreeWalkingTourCusco/" target="_blank"><i class="fab fa-facebook fa-3x pr-4"></i></a>
-                                    <a href="https://wa.me/+51974773203" target="_blank"><i class="fab fa-whatsapp fa-3x pr-4"></i></a>
-                                </div>-->
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="col-md maps mt-5" id="yourMap" >
-                                <h2 class="lang text-uppercase mt-3 font-weight-bold text-center" id="CONTACT_H2_1">Meeting Point</h2>
-                                <iframe class="mt-2"  width="600" height="500" id="gmap_canvas"
-                                        src="https://maps.google.com/maps?q=Plazoleta%20Espinar%2C%20Cusco&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-                                </iframe>
-                            </div>
-                        </div>
+    <div id="carouselExampleIndicators" class="carousel slide mt-5 mb-5 waypoint carousel-bigscreen" data-animation="slide-in-right" data-ride="carousel">
+        <br>    
+        <h2 class="text-center mt-5 mb-5 my-underline" >Tour 10:00 am</h3>
+           
+        <div class="carousel-inner container-flex">
+            <div class="carousel-item active peopleCarouselImg" >
+                <div class="row">
+                    <div class="col"> 
+                        <img class="d-block w-100 mx-auto" src="images/intiraymi.jpg" alt="bestWalkingToursCusco.jpg">
+                    </div>
+                    <div class="col"> 
+                        <img class="d-block w-100 mx-auto" src="images/localGuides.png" alt="localGuides">
+                    </div>
+                    <div class="col"> 
+                        <img class="d-block w-100 mx-auto" src="images/plaza-de-armas-cusco-1.jpg" alt="culturalTours">
+                    </div>
+                    <div class="col"> 
+                        <img class="d-block w-100 mx-auto" src="images/historyTraditions.png" alt="historyTraditions">
+                    </div>
+                </div>
+        
             </div>
+
+            <div class="carousel-item peopleCarouselImg" >
+                <div class="row">
+                    <div class="col">
+                        <img class="d-block w-100 mx-auto" src="images/Hatun_Rumiyoc.jpg" alt="freeFruitTasting.jpg">
+                    </div>
+                    <div class="col">
+                        <img class="d-block w-100 mx-auto" src="images/alpacaWoolExplanation.png" alt="alpacaWoolExplanations">
+                    </div>
+                    <div class="col">
+                        <img class="d-block w-100 mx-auto" src="images/piedra_12_angulos.jpg" alt="cuscoByFoot">
+                    </div>
+                    <div class="col"> 
+                        <img class="d-block w-100 mx-auto" src="images/iglesia_la_merced_@.jpg" alt="piscoSourTasting">
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <br>
+    <div class="row" id="tours">
+        <div class="container-fluid mt-5 mb-5">
+            <h2 class="lang  text-center mt-5 mb-5 my-underline" id="tour_title_one" >Tour 10:00 am - Itinerary</h2>
+            
+            <div class="accordion"  id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                      <button class="lang btn btn-link" id="tour_Q1" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        ​   1.- Brief Historical Review
+                      </button>
+                    </h2>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="lang card-body" id="tour_A1" >
+                        A general review about the ancient city, really important to understand later facts.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button class="lang btn btn-link collapsed" id="tour_Q2" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        2.- Oldest High School of the city
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="lang card-body" id="tour_A2">
+                        We will visit the "Colegio Nacional de Ciencias y Artes", founded in 1825. 
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="lang btn btn-link collapsed" id="tour_Q3" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            3.- San Pedro Market: Fruit tasting
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="lang card-body" id="tour_A3">
+                        The market stands 8 minutes away from the mainsquare, it's a must place to visit, in order to experience local life. 
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingFour">
+                      <h2 class="mb-0">
+                        <button class="lang btn btn-link collapsed" id="tour_Q4" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            4.- Main Square
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                      <div class="lang card-body" id="tour_A4">
+                            Nice wide stone pathways and colorful gardens, it's the heart of the colonial center.
+                      </div>
+                    </div>
+                </div>
+                <div class="card">
+                <div class="card-header" id="headingFive">
+                    <h2 class="mb-0">
+                    <button class="lang btn btn-link collapsed" id="tour_Q5" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        5.- Temple of the choosen women: Accllawuasi
+                    </button>
+                    </h2>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                    <div class="lang card-body" id="tour_A5">
+                            Acllahuasi is a Quechua word that means house of the chosen women. The Acllas were the women with th best cultural preparation in the empire.
+                    </div>
+                </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingSix">
+                        <h2 class="mb-0">
+                        <button class="lang btn btn-link collapsed"  id="tour_Q6"type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            6.- Alpaca Wool Explanation
+                        </button>
+                        </h2>
+                    </div>
+                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                        <div class="lang card-body" id="tour_A6">
+                               One of our additional or extra activities. We'll learn how to distinguish between differents quality of alpaca textil and how to actually recognize clothes made of alpaca wool.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header" id="headingSeven">
+                        <h2 class="mb-0">
+                        <button class="lang btn btn-link collapsed" id="tour_Q7 "type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                            7.- Qoricancha Sun Temple
+                        </button>
+                        </h2>
+                    </div>
+                    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                        <div class="lang card-body" id="tour_A7">
+                               It can be known as Coricancha, Qoricancha, Qorikancha or Koricancha and it was one of the most important and most sacred temples of the Inca empire. Its ruins are located in Santo Domingo Plaza in Cusco.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header" id="headingEight">
+                        <h2 class="mb-0">
+                            <button class="lang btn btn-link collapsed" id="tour_Q8" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                8.- Inca Roca Palace
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+                        <div class="lang card-body" id="tour_A8">
+                            "Inca Roca", was the sixth Sapa Inca of the Empire of Cusco (beginning around CE 1350) and the first of the Hanan ("upper") dynasty.                                    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header" id="headingNine">
+                        <h2 class="mb-0">
+                        <button class="lang btn btn-link collapsed" id="tour_Q9" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                            9.- San Blas Neighborhood
+                        </button>
+                        </h2>
+                    </div>
+                    <div id="collapseNine" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="lang card-body" id="tour_A9">
+                            It's an area quite different to the rest of Cusco. It's better known as the artisan's quarter, it's worth it to take the walking up.  
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 
