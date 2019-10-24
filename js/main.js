@@ -34,50 +34,10 @@ $(document).ready(function() {
           });
     });
   }
-/*
-$(document).ready(function() {
-    // Check if element is scrolled into view
-    function isScrolledIntoView(elem) {
-        var docViewTop = $(window).scrollTop();
-        var docViewBottom = docViewTop + $(window).height();
 
-        var elemTop = $(elem).offset().top;
-        var elemBottom = elemTop + $(elem).height();
-
-        return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
-    }
-    // If element is scrolled into view, fade it in
-    $(window).scroll(function() {
-        $('.wild-detail .animated').each(function() {
-            if (isScrolledIntoView(this) === true) {
-                $(this).addClass('fadeInDown');
-            }
-        });
-
-        $('#wild-carousel .animated').each(function() {
-            if (isScrolledIntoView(this) === true) {
-                $(this).addClass('fadeInDown');
-            }
-        });
-
-        $('#wild-card .animated').each(function() {
-            if (isScrolledIntoView(this) === true) {
-                $(this).addClass('fadeInLeft');
-            }
-        });
-        $('#testimonial-details .animated').each(function() {
-            if (isScrolledIntoView(this) === true) {
-                $(this).addClass('fadeInRight');
-            }
-        });
-
-        $('#contact .animated').each(function() {
-            if (isScrolledIntoView(this) === true) {
-                $(this).addClass('fadeInDown');
-            }
-        });
-    });
-});*/
+  $(window).on('scroll', function (e) {
+    $('.navbar').toggleClass('fixed-top', $(window).scrollTop() < 750);
+  })
 
 $(function() {
 
@@ -154,11 +114,26 @@ $(function() {
 	    "T-SHRIT_1": "Find us with our ORANGE T-SHIRT  and logo",
 	    "T-SHRIT_2": "Don’t get confused by others groups.",
 	    "TITLE_ABOUT": "WHY CHOOSE US?",
-	    "P1_ABOUT": "Wild free walking tour cusco is operated by a 100% local company, we have been working in Cusco for 3 years, our local guides are accredited professionals, each tour is focused on history, traditions and local culture.",
-            "P2_ABOUT": "The best way to discover a WONDERFUL city like Cusco is walking, and there’s no better, that doing it accompanied by one of our local guides. We make your time a valuable moment, which you will not forget. We have 3 daily departure times: 10:00 am, 12:30 pm and 03:00 pm. Each group is of maximum 15 people. We have separate groups, in both English and Spanish.",
+	    "P1_ABOUT": "Wild free walking tour Cusco is operated by a 100% local company, we have been working in Cusco for 3 years. We will explore by foot this magnificent city of Cusco, the capital of the great Inka Empire, called in our Quechua mater language, as QOSQO. (Navel of the world, Center of the Universe). The majestic city of Cusco was the economic, religious, cultural and political epicenter of one of the greatest civilizations in South America.",
+            "P2_ABOUT": "In our free walking tour, which is a 2-hour and 30-minute walk, our authorized and passionate about history local guides, will illustrate to you about the importance of the Andean man and the city of Cusco in the development of tourism in Peru.",
 	    "P3_ABOUT": "IMPORTANT: DO NOT get confused by other people who claim to be local guides and you will waste your time with false or google information. Our company is the only local company authorized by the Peruvian government. Any doubts? You can check our real comments from our visitors on our social networks",
 	    "FOOTER_ABOUT": "Casio Valdéz - General Manager",
 
+	    "first_walking" : "Walking Tour 10:00 ",
+	    "tours_subtitle": "by Wild Free Walking Tours - English & Spanish",
+	    "paragraph_first_walking" : "Our Walking Tours are historical and cultural focused, our licensed guides are prepared to give you important information and facts about our ancestral city, this tour is a great way to start your day in Cusco.",
+	    "book_tour": "Book",
+	    "Itinerary": "Itinerary",
+
+	    "second_walking" : "Walking Tour 12:30 ",
+	    "paragraph_second_walking" : "If you missed our first walking tour, don't worry, all our tours are focused in history, traditions and culture. There are some variations in the places we visit, for more information you should check the itinerary for each schedule.",
+
+	    "third_walking" : "Walking Tour 10:00 ",
+	    "paragraph_third_walking" : "We will show you the most important and historical places of the ancient capital city of the Incas. A tour, full of history, culture, and traditions.",
+	    
+	    "optional_activities" : "Optional Activities",
+	    "extra_activities": "In each tour we have some optional or extra activities like Alpaca Wool Explanation, fruit tasting in San Pedro Market, Pisco Tasting in a local bar. Check the itinerary to see which of these activities are in your chosen tour.",
+	
             "CAROUSEL_H2": "About us",
             "CAROUSEL_IMG_1": "The best Free Walking Tour in Cusco, great English",
             "CAROUSEL_IMG_2": "With Local Guides born and raised here",
@@ -284,6 +259,62 @@ $(function() {
 	    "Q10": "10.- Are any of the other free walking tours in Cuzco related to WildFreeWalkingTours?",
 	    "A10": "No. We operate independently from all other walking tours in Cuzco. For truly the best experience be sure to look for the friendly team in the ‘WildFreeWalkingTours’ branded, ORANGE t-shirts and meet us at Plazoleta Espinar (1 block away comming from Main Square and 3 blocks away coming from San Pedro Market), in front of \"La Merced\" Church.",
             
+	    "tour_Q1" : "1.- Brief Historical Review",
+	    "tour_A1" : "A general review about the ancient city, really important to understand later facts.",
+	    "tour_Q2" : "2.- Oldest High School of the city",
+	    "tour_A2" : "We will visit the \"Colegio Nacional de Ciencias y Artes\", founded in 1825.",
+	    "tour_Q3" : "3.- San Pedro Market: Fruit tasting",
+	    "tour_A3" : "The market stands 8 minutes away from the mainsquare, it's a must place to visit, in order to experience local life.",
+	    "tour_Q4" : "4.- Main Square",
+	    "tour_A4" : "Nice wide stone pathways and colorful gardens, it's the heart of the colonial center.",
+	    "tour_Q5" : "5.- Temple of the choosen women: Accllawuasi",
+	    "tour_A5" : "Acllahuasi is a Quechua word that means house of the chosen women. The Acllas were the women with th best cultural preparation in the empire.",
+	    "tour_Q6" : "6.- Alpaca Wool Explanation",
+	    "tour_A6" : "One of our additional or extra activities. We'll learn how to distinguish between differents quality of alpaca textil and how to actually recognize clothes made of alpaca wool.",
+	    "tour_Q7" : "7.- Qoricancha Sun Temple",
+	    "tour_A7" : "It can be known as Coricancha, Qoricancha, Qorikancha or Koricancha and it was one of the most important and most sacred temples of the Inca empire. Its ruins are located in Santo Domingo Plaza in Cusco.",
+	    "tour_Q8" : "8.- Inca Roca Palace",
+	    "tour_A8" : "\"Inca Roca\", was the sixth Sapa Inca of the Empire of Cusco (beginning around CE 1350) and the first of the Hanan (\"upper\") dynasty.",
+	    "tour_Q9" : "9.- San Blas Neighborhood",
+        "tour_A9" : "It's an area quite different to the rest of Cusco. It's better known as the artisan's quarter, it's worth it to take the walking up.",
+        
+                    
+	    "tour_Q10" : "1.- Brief Historical Review",
+	    "tour_A10" : "A general review about the ancient city, really important to understand later facts.",
+	    "tour_Q11" : "2.- Main Square",
+	    "tour_A11" : "Nice wide stone pathways and colorful gardens, it's the heart of the colonial center.",
+	    "tour_Q12" : "3.- Temple of the choosen women: Accllawuasi",
+        "tour_A12" : "Acllahuasi is a Quechua word that means house of the chosen women. The Acllas were the women with th best cultural preparation in the empire.",
+	    "tour_Q13" : "4.- Alpaca Wool Explanation",
+	    "tour_A13" : "One of our additional or extra activities. We'll learn how to distinguish between differents quality of alpaca textil and how to actually recognize clothes made of alpaca wool.",
+	    "tour_Q14" : "5.- Qoricancha Sun Temple",
+	    "tour_A14" : "It can be known as Coricancha, Qoricancha, Qorikancha or Koricancha and it was one of the most important and most sacred temples of the Inca empire. Its ruins are located in Santo Domingo Plaza in Cusco.",
+	    "tour_Q15" : "6.- Pachacutec Palace (Qasana)",
+	    "tour_A15" : "Qasana is a Quechua word. It means \"Frost Susceptibility place\" or \"where the ice falls\". In Inca´s time this palace was extended from the bank of the river Saphy to the palace Qora Qora.",
+	    "tour_Q16" : "7.- Inca Roca Palace",
+	    "tour_A16" : "\"Inca Roca\", was the sixth Sapa Inca of the Empire of Cusco (beginning around CE 1350) and the first of the Hanan (\"upper\") dynasty.",
+	    "tour_Q17" : "8.- San Blas Neighborhood",
+        "tour_A17" : "It's an area quite different to the rest of Cusco. It's better known as the artisan's quarter, it's worth it to take the walking up.",
+        
+        "tour_Q18" : "1.- Brief Historical Review",
+	    "tour_A18" : "A general review about the ancient city, really important to understand later facts.",
+	    "tour_Q19" : "2.- Main Square",
+	    "tour_A19" : "Nice wide stone pathways and colorful gardens, it's the heart of the colonial center.",
+	    "tour_Q20" : "3.- Temple of the choosen women: Accllawuasi",
+        "tour_A20" : "Acllahuasi is a Quechua word that means house of the chosen women. The Acllas were the women with th best cultural preparation in the empire.",
+	    "tour_Q21" : "4.- Alpaca & Llama's Selfie.",
+	    "tour_A21" : "A quite hidden place where you can take some photos with those nice lovely animals.",
+	    "tour_Q22" : "5.- Pachacutec Palace (Qasana)",
+	    "tour_A22" : "Qasana is a Quechua word. It means \"Frost Susceptibility place\" or \"where the ice falls\". In Inca´s time this palace was extended from the bank of the river Saphy to the palace Qora Qora.",
+	    "tour_Q23" : "6.- Inca Roca Palace",
+	    "tour_A23" : "\"Inca Roca\", was the sixth Sapa Inca of the Empire of Cusco (beginning around CE 1350) and the first of the Hanan (\"upper\") dynasty.",
+	    "tour_Q24" : "7.- Alpaca Wool Explanation",
+	    "tour_A24" : "One of our additional or extra activities. We'll learn how to distinguish between differents quality of alpaca textil and how to actually recognize clothes made of alpaca wool.",
+	    "tour_Q25" : "8.- San Blas Neighborhood",
+        "tour_A25" : "It's an area quite different to the rest of Cusco. It's better known as the artisan's quarter, it's worth it to take the walking up.",
+        "tour_Q26" : "9.- Pisco Sour Tasting",
+	    "tour_A26" : "This is a additional activity to finish this tour and is mainly use to give our final words and thanks.",
+
 
 	    "T1_FOOTER": "MORE TOURS IN CUSCO...",
 	    "T2_FOOTER": "CERTIFICATIONS",
@@ -298,16 +329,15 @@ $(function() {
             "CONTACTNAV": "Contacto",
 	    "FAQS": "Preguntas",
 	    "MORETOURS": "Itineraio",
-	    
-
+	 
             "HOME_H2": "Por Locales",
             "HOME_BUTTON1": "Reserva ya!",
 
 	    "T-SHRIT_1": "Buscanos con nuestro polo y logo",
 	    "T-SHRIT_2": "No se confunda con otros grupos.",
 	    "TITLE_ABOUT": "POR QUÉ ELEGIRNOS?",
-	    "P1_ABOUT": "Wild free walking tour cusco es operado por una empresa 100% local, estamos trabajando en Cusco desde hace 3 años, nuestros guías locales son profesionales acreditados, cada recorrido está enfocado en historia, tradiciones y cultura local.",
-            "P2_ABOUT": "Una ciudad tan MARAVILLOSA como Cusco se conoce mejor caminando, y que mejor, acompañado de un guía local. Hacemos de su tiempo un valioso momento, que no olvidará. Tenemos 3 horarios de salida diaria : 10:00am,12:30pm y 03:00pm. Cada grupo es de máximo 15 personas. Tenemos grupos separados en inglés y español.",
+	    "P1_ABOUT": "Wild free walking tour cusco es operado por una empresa 100% local, estamos trabajando en Cusco desde hace 3 años. Vamos a explorar a pie esta magnífica y grandiosa cuidad, la capital del grandioso Imperio Inka, denominado en nuestro idioma mater Quechua , como: QOSQO. (Ombligo del mundo, centro del universo). La Majestousa  ciudad del Cusco fue Epicentro económico, religioso, cultural y político de una de las civilizaciones más grandiosa que se desarrolló en Sudamérica.",
+            "P2_ABOUT": "En nuestro recorrido a pie gratuito, que es una caminata de 2 horas y 30 minutos, nuestros guías locales autorizados y apasionados por la historia, le ilustrarán sobre la importancia del hombre andino y de la ciudad del Cusco en el desarrollo de turismo en el Perú",
 	    "P3_ABOUT": "IMPORTANTE : NO se confunda con otras personas que dicen ser guías locales y perderá su tiempo con información falsa o googleada. Nuestra empresa es la única empresa local autorizada por el gobierno peruano. Tiene dudas? Puede ver nuestros comentarios reales de nuestros visitantes en : ",
 	    "FOOTER_ABOUT": "Casio Valdéz - Gerente General",
 
@@ -320,6 +350,21 @@ $(function() {
             "CAROUSEL_IMG_6": "Degustación gratiuta de frutas exóticas",
             "CAROUSEL_IMG_7": "Explicación sobre lana de Alpaca",
             "CAROUSEL_IMG_8": "Quieres conocer Cusco con/como un local?, Ven y Únete",
+
+	    "first_walking" : "Tour a pie 10:00",
+	    "tours_subtitle": "Por Wild Free Walking Tours - Inglés & Español",
+	    "paragraph_first_walking" : "Nuestros recorridos a pie tienen un enfoque histórico y cultural, nuestros guías con licencia están preparados para brindarle información importante y datos sobre nuestra ciudad ancestral, este recorrido es una excelente manera de comenzar su día en Cusco.",
+	    "book_tour": "Reservar",
+	    "itinerary": "Itinerario",
+
+	    "second_walking" : "Tour a pie 12:30",
+	    "paragraph_second_walking" : "Si se perdió nuestro primer recorrido a pie, no se preocupe, todos nuestros recorridos se centran en la historia, las tradiciones y la cultura. Hay algunas variaciones en los lugares que visitamos, para más información debe consultar el itinerario de cada horario.",
+
+	    "third_walking" : "Tour a pie 15:00",
+	    "paragraph_third_walking" : "Le mostraremos los lugares más importantes e históricos de la antigua capital de los Incas. Un recorrido lleno de historia, cultura y tradiciones.",
+	    
+	    "optional_activities" : "Actividades extras",
+	    "extra_activities": "En cada recorrido tenemos algunas actividades opcionales o adicionales como Explicación de lana de alpaca, degustación de frutas en el mercado de San Pedro, degustación de pisco en un bar local. Verifique el itinerario para ver cuáles de estas actividades están en su recorrido elegido.",
 
             "CARD_H2" : "Nuestros Tours a pie",
             "CARD_H5_1": "Tour a pie 10:00",
@@ -436,6 +481,61 @@ $(function() {
 	    "Q10": "10.- ¿Alguno de los otros recorridos a pie gratuitos en Cusco está relacionado con WildFreeWalkingTours?",
 	    "A10": "No. Operamos independientemente de todos los demás recorridos a pie en Cusco. Para obtener realmente la mejor experiencia, asegúrese de buscar el amigable equipo con la marca 'WildFreeWalkingTours' y camisetas NARANJAS, reúnase con nosotros en Plazoleta Espinar (a 1 cuadra de la Plaza de Armas y 3 cuadras del Mercado de San Pedro), frente a la Iglesia de la Merced.",
          
+
+	    "tour_Q1": "1.- Breve reseña histórica",
+	    "tour_A1": "Una revisión general sobre la ciudad antigua, realmente importante para comprender hechos posteriores",
+	    "tour_Q2": "2.- Escuela secundaria más antigua de la ciudad",
+        "tour_A2": "Visitaremos el \" Colegio Nacional de Ciencias y Artes \", fundado en 1825.",
+	    "tour_Q3": "3.- Mercado de San Pedro: degustación de frutas",
+	    "tour_A3": "El mercado se encuentra a 8 minutos de la plaza principal, es un lugar de visita obligada para experimentar la vida local",
+	    "tour_Q4": "4.- Plaza principal",
+	    "tour_A4": "Bonitos senderos de piedra y jardines coloridos, es el corazón del centro colonial.",
+        "tour_Q5": "5.- Templo de las mujeres elegidas: Accllawuasi",
+	    "tour_A5": "Acllahuasi es una palabra quechua que significa casa de las mujeres elegidas. Las Acllas fueron las mujeres con la mejor preparación cultural del imperio",
+	    "tour_Q6": "6.- Explicación de la lana de alpaca",
+	    "tour_A6": "Una de nuestras actividades adicionales o adicionales. Aprenderemos a distinguir entre diferentes calidades de alpaca textil y cómo reconocer realmente la ropa hecha de lana de alpaca.",
+        "tour_Q7": "7.- Templo del Sol Qoricancha",
+	    "tour_A7": "Puede ser conocido como Coricancha, Qoricancha, Qorikancha o Koricancha y fue uno de los templos más importantes y sagrados del imperio inca. Sus ruinas se encuentran en la Plaza de Santo Domingo en Cusco.",
+	    "tour_Q8": "8.- Palacio Inca Roca",
+	    "tour_A8": "\" Inca Roca \", fue el sexto Sapa Inca del Imperio del Cusco (comenzando alrededor de CE 1350) y el primero de la dinastía Hanan (\" superior \")",
+	    "tour_Q9": "9.- Barrio de San Blas",
+	    "tour_A9": "Es un área bastante diferente al resto del Cusco. Es mejor conocido como el barrio de los artesanos, vale la pena subir caminando.",
+
+        "tour_Q10": "1.- Breve reseña histórica",
+        "tour_A10": "Una revisión general sobre la ciudad antigua, realmente importante para comprender hechos posteriores",
+        "tour_Q11": "2.- Plaza principal",
+        "tour_A11": "Bonitos senderos de piedra y jardines coloridos, es el corazón del centro colonial.",
+        "tour_Q12": "3.- Templo de las mujeres elegidas: Accllawuasi",
+                "tour_A12": "Acllahuasi es una palabra quechua que significa casa de las mujeres elegidas. Las Acllas fueron las mujeres con la mejor preparación cultural del imperio.",
+        "tour_Q13": "4.- Explicación de la lana de alpaca",
+        "tour_A13": "Una de nuestras actividades adicionales o adicionales. Aprenderemos a distinguir entre diferentes calidades de alpaca textil y cómo reconocer realmente la ropa hecha de lana de alpaca.",
+        "tour_Q14": "5.- Templo del Sol Qoricancha",
+        "tour_A14": "Puede ser conocido como Coricancha, Qoricancha, Qorikancha o Koricancha y fue uno de los templos más importantes y sagrados del imperio inca. Sus ruinas se encuentran en la Plaza de Santo Domingo en Cusco.",
+        "tour_Q15": "6.- Palacio Pachacutec (Qasana)",
+        "tour_A15": "Qasana es una palabra quechua. Significa \" lugar de susceptibilidad a las heladas\" o \" donde cae el hielo \". En tiempos de los incas, este palacio se extendía desde la orilla del río Saphy hasta el palacio Qora Qora.",
+        "tour_Q16": "7.- Palacio Inca Roca",
+        "tour_A16": "\" Inca Roca \", fue el sexto Sapa Inca del Imperio del Cusco (comenzando alrededor de CE 1350) y el primero de la dinastía Hanan (\" superior \")",
+        "tour_Q17": "8.- Barrio de San Blas",
+        "tour_A17": "Es un área bastante diferente al resto del Cusco. Es mejor conocido como el barrio de los artesanos, vale la pena subir.",
+
+        "tour_Q18": "1.- Breve reseña histórica",
+        "tour_A18": "Una revisión general sobre la ciudad antigua, realmente importante para comprender hechos posteriores",
+        "tour_Q19": "2.- Plaza principal",
+        "tour_A19": "Bonitos senderos de piedra y jardines coloridos, es el corazón del centro colonial.",
+        "tour_Q20": "3.- Templo de las mujeres elegidas: Accllawuasi",
+        "tour_A20": "Acllahuasi es una palabra quechua que significa casa de las mujeres elegidas. Las Acllas fueron las mujeres con la mejor preparación cultural del imperio",
+        "tour_Q21": "4.- Selfie de Alpaca & Llama",
+        "tour_A21": "Un lugar bastante escondido donde puedes tomar algunas fotos con esos encantadores animales.",
+        "tour_Q22": "5.- Palacio Pachacutec (Qasana)",
+        "tour_A22": "Qasana es una palabra quechua. Significa \" lugar de susceptibilidad a las heladas\" o \" donde cae el hielo \". En tiempos de los incas, este palacio se extendía desde la orilla del río Saphy hasta el palacio Qora Qora",
+        "tour_Q23": "6.- Palacio Inca Roca",
+        "tour_A23": "\" Inca Roca \", fue el sexto Sapa Inca del Imperio del Cusco (comenzando alrededor de CE 1350) y el primero de la dinastía Hanan (\" superior \")",
+        "tour_Q24": "7.- Explicación de la lana de alpaca",
+        "tour_A24": "Una de nuestras actividades adicionales o adicionales. Aprenderemos a distinguir entre diferentes calidades de alpaca textil y cómo reconocer realmente la ropa hecha de lana de alpaca.",
+        "tour_Q25": "8.- Barrio de San Blas",
+        "tour_A25": "Es un área bastante diferente al resto del Cusco. Es mejor conocido como el barrio de los artesanos, vale la pena subir.",
+        "tour_Q25": "9.- Degustación de Pisco Sour",
+        "tour_A25": "Esta es una actividad adicional para terminar este recorrido y se utiliza principalmente para dar nuestras últimas palabras y gracias.",
 
 	"T1_FOOTER": "MAS TOURS EN CUSCO...",
 	"T2_FOOTER": "CERTIFICACIONES",
