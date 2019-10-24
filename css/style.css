@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5, h6 {
 .bgimage {
     width:100%;
     height: 800px;
-    background: url('../images/main_sqaure_cool_edit_1.jpg')no-repeat;
+    background: url('../images/background_image.jpeg')no-repeat;
     background-position: center;
     background-size:cover;
     background-attachment: fixed;
@@ -93,10 +93,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bgimage .myTripLogo {
-    height: 60px;
-    width: 60px;
-    margin: 6rem 0rem 2rem 0;
+    height: 70px;
+    width: 70px;
+    margin: 6rem 0 2rem 0;
     border-radius: 1rem 1rem;
+}
+
+.bgimage .Af4biT {
+    list-style: none;
+}
+
+.bgimage #CDSWIDCOE {
+    border-radius: 1rem 1rem; 
 }
 
 .bgimage h2 {
@@ -116,7 +124,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
 .bgimage .wp-icon a {
     border-radius: 8rem;
     font-size: 2rem;
@@ -125,6 +132,7 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
     margin: 6rem 0rem 2rem 0;
 }
+
 .bgimage .wp-icon a:hover {
     background-color: rgb(200, 219, 226);
     color: black;
@@ -137,9 +145,9 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .bgimage .mylogo {
-        height: 120px;
-        width: 120px;
-        margin: 8rem 0 0 5rem;
+        height: 140px;
+        width: 140px;
+        margin: 8rem 0 0 4rem;
     }
     .bgimage .myTripLogo {
         height: 110px;
@@ -149,9 +157,9 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .bgimage .wp-icon a {
-        font-size: 3rem;
-        padding: .6rem 1.5rem;
-        margin: 8rem 5rem 0 0;
+        font-size: 4rem;
+        padding: .6rem 1.9rem;
+        margin: 9rem 5rem 0 0;
     }
     .bgimage .wp-icon{
         margin-left: 4rem;
@@ -201,7 +209,6 @@ h1, h2, h3, h4, h5, h6 {
     max-height:260px;
 }
 
-
 /*.carousel-control-prev-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
@@ -225,14 +232,11 @@ h1, h2, h3, h4, h5, h6 {
 #wild-carousel {
     background-color: white; /*rgba(245, 118, 0, 0.8)*/;
 }
-
-
 /*
 #wild-carousel h2 {
     text-shadow: 1px 1px black;
     
 }*/
-
 #wild-carousel h5 {
     font-family: Poppins, sans-serif;
 }
@@ -277,22 +281,6 @@ h1, h2, h3, h4, h5, h6 {
     .carousel-bigscreen {
         display: none;
     }
-}
-
-#wild-carousel .first-par {
-    color: #FFE400;
-    font-size: 1.2rem;
-    align-content: center;
-}
-#wild-carousel .second-par{
-    color: #14A76C;
-    font-size: 1.2rem;
-    align-content: center;
-}
-#wild-carousel .third-par{
-    color: #FF652F;
-    font-size: 1.2rem;
-    align-content: center;
 }
 
 #wild-carousel .card-title {
@@ -581,8 +569,21 @@ details styles ends*/
     border: 2px solid rgb(114, 113, 113);
 }
 
+.img-footer {
+    height:140px;
+    width:140px;
+    border-radius: .5rem;
+    border: 2px solid rgb(114, 113, 113);
+}
+
 .footer .link-tours a, .footer .sociales a{
     color: black;
+    text-decoration-line: underline;
+    font-weight: 600;
+}
+
+#wild-carousel .sociales a{
+    color: rgb(41, 41, 41);
     text-decoration-line: underline;
     font-weight: 600;
 }

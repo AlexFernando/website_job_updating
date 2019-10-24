@@ -76,6 +76,7 @@
                     <a class="lang nav-item nav-link" id="REVIEWS" href="#testimonial-details">Reviews</a>
                     <a class="lang nav-item nav-link" id="CONTACTNAV" href="contact.html">Contact</a>
                     <a class="lang nav-item nav-link" id="FAQS" href="faqs.html">FAQ's</a>
+                    
                     <!--Languages buttons-->
                     <a class="translate nav-item nav-link" id="en-gb" href="#en"><span class="flag-icon flag-icon-us"> </span> EN</a>
                     <a class="translate nav-item nav-link" id="es" href="#es"><span class="flag-icon flag-icon-es"> </span> ES</a>
@@ -88,9 +89,9 @@
     <!-- background section starts-->
     <div class="container-fluid bgimage" id="home">
         <div class="d-flex justify-content-between align-content-center">
-                <a target="_blank" href="https://www.tripadvisor.com.pe/Attraction_Review-g294314-d12493345-Reviews-Wild_Free_Walking_Tour_Cusco-Cusco_Cusco_Region.html">
+                <a class="trip-logo-mobile" target="_blank" href="https://www.tripadvisor.com.pe/Attraction_Review-g294314-d12493345-Reviews-Wild_Free_Walking_Tour_Cusco-Cusco_Cusco_Region.html">
                     <img class="myTripLogo waypoint" data-animation="flip-in-x" data-delay=".1s" src="images/tripadvisor-logo_2.png" alt="logo_trip">
-                </a>
+                </a> 
                 <img class="mylogo waypoint" data-animation="flip-in-x" data-delay=".1s" src="images/logo_200.png" alt="logo">
                 <p class="wp-icon text-center waypoint" data-animation="flip-in-x" data-delay=".1s"><a href="https://wa.me/+51974773203" target="_blank" class="btn btn-success btn-large text-center"><i class="fab fa-whatsapp"></i></a></p>
         </div>
@@ -125,11 +126,25 @@
                     <div class="col-md-8">
                         <div class="card-body mt-5 mb-5 text-justify">
                             <h5 id="TITLE_ABOUT" class="lang card-title text-center">Por qué elegirnos?</h5>
+
+                            <!--<div class="d-sm-flex flex-sm-column flex-md-row flex-lg-row  justify-content-around align-content-center mt-5">        
+                                <img class="img-footer waypoint mb-4" data-animation="flip-in-x" data-delay=".1s" src="images/green_tourism_1.png" alt="logo">  
+                                <img class="img-footer waypoint mb-4" data-animation="flip-in-x" data-delay=".1s" src="images/trip.png" alt="logo">
+                                <img class="img-footer waypoint mb-3" data-animation="flip-in-x" data-delay=".1s" src="images/dircetur_1.png" alt="logo">
+                            </div>-->
+
                             <p id="P1_ABOUT" class="lang card-text mt-4 mb-3">Wild free walking tour cusco es operado por una empresa 100% local, estamos trabajando en Cusco desde hace 3 años, nuestros guías locales son profesionales acreditados, cada recorrido está enfocado en historia, tradiciones y cultura local.</p>
                             <p id="P2_ABOUT" class= "lang card-text mt-4 mb-3">Una ciudad tan MARAVILLOSA como Cusco se conoce mejor caminando, y que mejor, acompañado de un guía local. Hacemos de su tiempo un valioso momento, que no olvidará. Tenemos 3 horarios de salida diaria : 10:00am,12:30pm y 03:00pm.
                                     Cada grupo es de máximo 15 personas. Tenemos grupos separados en ingles y español.</p> 
                                 <p id="P3_ABOUT" class="lang card-text font-weight-bold mt-4 mb-3"> 
                                         IMPORTANTE : NO se confunda con otras personas que dicen ser guías locales y perderá su tiempo con información falsa o googleada. Nuestra empresa es la única empresa local autorizada por el gobierno peruano. Tiene dudas? Puede ver nuestros comentarios reales de nuestros visitantes en nuestras redes sociales</p>
+                                        
+                            <nav class="sociales d-flex justify-content-center">
+                                    <a href="https://www.tripadvisor.com.pe/Attraction_Review-g294314-d12493345-Reviews-Wild_Free_Walking_Tour_Cusco-Cusco_Cusco_Region.html" target="_blank"> <i class="fab fa-tripadvisor fa-3x pr-4"></i></a>                    
+                                    <a href="https://www.facebook.com/WildFreeWalkingTourCusco/" target="_blank"><i class="fab fa-facebook fa-3x pr-4"></i></a>
+                                    <a href="https://wa.me/+51974773203" target="_blank"><i class="fab fa-whatsapp fa-3x pr-4"></i></a>
+                                    <a href="https://www.instagram.com/wildfreewalkingtourscusco/" target="_blank"> <i class="fab fa-instagram fa-3x pr-4"></i> </a>
+                            </nav>
                                         
                             <p id="FOOTER_ABOUT" class="lang card-text font-italic text-right mt-5"><small class="text-foot">Casio Valdéz - General Manager</small></p>
                         </div>
@@ -250,13 +265,13 @@
                             </div>
                             <div class="product-info">
                                 <div class="product-text">
-                                    <h1 class="details-main-title">Walking Tour 10:00 </h1>
-                                    <h2>by Wild Free Walking Tours</h2>
-                                    <p> Our Walking Tours are historical and cultural focused, our licensed guides are prepared to give you important information and facts about our ancestral city, this tour is a great way to start your day in Cusco.</p>
+                                    <h1 class="lang details-main-title" id="first_walking">Walking Tour 10:00 </h1>
+                                    <h2 id="tours_subtitle" class="lang">by Wild Free Walking Tours - English & Spanish </h2>
+                                    <p id="paragraph_first_walking" class="lang"> Our Walking Tours are historical and cultural focused, our licensed guides are prepared to give you important information and facts about our ancestral city, this tour is a great way to start your day in Cusco.</p>
                                 </div>
                                 <div class="product-price-btn">
-                                    <a href="contact.html"><button class="btn" type="button">Book</button></a> 
-                                    <a href="tour_one.html" ><button class="btn" type="button">Itineray</button></a>
+                                    <a href="contact.html"><button class="btn lang" type="button" id="book_tour" >Book</button></a> 
+                                    <a href="tour_one.html" ><button class="btn lang" type="button" id="itinerary">Itineray</button></a>
                                 </div>
                             </div>
                         </div>
@@ -268,13 +283,13 @@
                             </div>
                             <div class="product-info">
                                 <div class="product-text">
-                                    <h1 class="details-main-title">Walking Tour 12:30 </h1>
-                                    <h2>by Wild Free Walking Tours</h2>
-                                    <p>If you missed our first walking tour, don't worry, all our tours are focused in history, traditions and culture. There are some variations in the places we visit, for more information you should check the itinerary for each schedule</p>
+                                    <h1 class="details-main-title lang" id="second_walking">Walking Tour 12:30 </h1>
+                                    <h2 id="tours_subtitle" class="lang">by Wild Free Walking Tours</h2>
+                                    <p class="lang" id="paragraph_second_walking">If you missed our first walking tour, don't worry, all our tours are focused in history, traditions and culture. There are some variations in the places we visit, for more information you should check the itinerary for each schedule</p>
                                 </div>
                                 <div class="product-price-btn">
-                                        <a href="contact.html"><button class="btn" type="button">Book</button></a> 
-                                        <a href="tour_second.html" ><button class="btn" type="button">Itineray</button></a>
+                                        <a href="contact.html"><button class="btn lang" id="book_tour" type="button">Book</button></a> 
+                                        <a href="tour_second.html" ><button class="btn lang" id="itinerary" type="button">Itineray</button></a>
                                 </div>
                             </div>
                         </div>
@@ -286,13 +301,13 @@
                             </div>
                             <div class="product-info">
                                 <div class="product-text">
-                                    <h1 class="details-main-title">Walking Tour 15:00 </h1>
-                                    <h2>by Wild Free Walking Tours</h2>
-                                    <p>We will show you the most important and historical places of the ancient capital city of the Incas. A tour full of history, culture and traditions</p>
+                                    <h1 class="details-main-title lang" id="third_walking">Walking Tour 15:00 </h1>
+                                    <h2 id="tours_subtitle" class="lang">by Wild Free Walking Tours</h2>
+                                    <p class="lang" id="third_walking_tour">We will show you the most important and historical places of the ancient capital city of the Incas. A tour full of history, culture and traditions.</p>
                                 </div>
                                 <div class="product-price-btn">
-                                        <a href="contact.html"><button class="btn" type="button">Book</button></a> 
-                                        <a href="tour_third.html" ><button class="btn" type="button">Itineray</button></a>
+                                        <a href="contact.html"><button class="btn lang" type="button" id="book_tour" >Book</button></a> 
+                                        <a href="tour_third.html" ><button class="btn lang" type="button" id="itinerary" >Itineray</button></a>
                                 </div>
                             </div>
                         </div>
@@ -304,12 +319,12 @@
                             </div>
                             <div class="product-info">
                                 <div class="product-text">
-                                    <h1 class="details-main-title">Optional Activities </h1>
-                                    <h2>by Wild Free Walking Tour</h2>
-                                    <p>In each tour we have some optional or extra activities like Alpaca Wool Explanation, fruit tasting in San Pedro Market, Pisco Tasting in a local bar. Check the itinerary to see which of these activities are in your chosen tour.</p>
+                                    <h1 class="details-main-title lang" id="optional_activities">Optional Activities </h1>
+                                    <h2 id="tours_subtitle" class="lang">by Wild Free Walking Tour</h2>
+                                    <p class="lang" id="extra_activities">In each tour we have some optional or extra activities like Alpaca Wool Explanation, fruit tasting in San Pedro Market, Pisco Tasting in a local bar. Check the itinerary to see which of these activities are in your chosen tour.</p>
                                 </div>
                                 <div class="product-price-btn">
-                                    <a href="contact.html"><button class="btn" type="button">Book</button></a> 
+                                    <a href="contact.html"><button class="btn lang" id="book_tour" type="button">Book</button></a> 
                                 </div>
                             </div>
                         </div>
@@ -513,6 +528,7 @@
     <div class="row" id="testimonial-details">
         <div class="container-fluid">
             <h2 class="lang  text-center mt-5 mb-5 font-weight-bold waypoint my-underline" data-animation="slide-Down" id="REVIEWS_H2" style="padding-top: 2rem">Reviews</h2>
+            
             <div class="row">
                 <div class="col-sm-4 mt-5 waypoint" data-animation="slide-in-left">
                     <div class="card mx-auto" style="width: 18rem;">
@@ -533,6 +549,18 @@
                         <div class="card-body text-center">
                             <h5 class="lang  card-title" id="REVIEWS_H5_2"><span class="oi oi-star" title="star" aria-hidden="true"></span> Badges</h5>
 
+                            <div id="TA_certificateOfExcellence522" class="TA_certificateOfExcellence waypoint" data-animation="flip-in-x" data-delay=".1s">
+                                <ul id="NcWgvTHl" class="TA_links SFCHupY">
+                                    <li id="bWzpwjgfq" class="Af4biT">
+                                        <a target="_blank" href="https://www.tripadvisor.com.pe/Attraction_Review-g294314-d12493345-Reviews-Wild_Free_Walking_Tour_Cusco-Cusco_Cusco_Region.html">
+                                            <img src="https://www.tripadvisor.com.pe/img/cdsi/img2/awards/CoE2017_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg myTripLogo" id="CDSWIDCOELOGO"/>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>    
+                            <script async src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=522&amp;locationId=12493345&amp;lang=es_PE&amp;year=2019&amp;display_version=2" data-loadtrk onload="this.loadtrk=true"></script>
+
+
                             <div id="TA_excellent638" class="TA_excellent">
                                 <ul id="BGKhAWy7" class="TA_links mIm7T2">
                                     <li id="pRQeKnG9thd" class="4G5OqKxWE05">
@@ -541,13 +569,7 @@
                                 </ul>
                             </div>
 
-                            <div id="TA_rated841" class="TA_rated">
-                                <ul id="45alTEHdlIQ" class="TA_links 47YWHu">
-                                    <li id="EPd1XcRHAEu" class="4xcucr">
-                                        <a target="_blank" href="https://www.tripadvisor.com.pe/"><img src="https://www.tripadvisor.com.pe/img/cdsi/img2/badges/ollie-11424-2.gif" alt="TripAdvisor"/></a>
-                                    </li>
-                                </ul>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -970,7 +992,6 @@
                         <a href="https://wa.me/+51974773203" target="_blank"><i class="fab fa-whatsapp fa-3x pr-4"></i></a>
                         <a href="https://www.instagram.com/wildfreewalkingtourscusco/" target="_blank"> <i class="fab fa-instagram fa-3x pr-4"></i> </a>
                         <a href="mailto:wildfreewalkingtours@gmail.com" target="_blank"> <i class="far fa-envelope fa-3x pr-4"></i></a>
-
                     </nav>
                     <p class="lang thanks mt-5 text-center" id="P_FOOTER">Hey Dear Travellers! Thanks for your preference! You can check more interesting tours and treks at: </p>
                     <div class="text-center">
