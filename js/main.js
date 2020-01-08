@@ -105,6 +105,7 @@ var arrLang = {
         "navbarDropdown": "FreeTours",
         "REVIEWS": "Reviews",
         "CONTACTNAV": "Contact",
+        "GUIDES": "Meet our Guides",
         "FAQS": "FAQ'S",
         "MORETOURS": "Itinerary",
 
@@ -113,20 +114,22 @@ var arrLang = {
 
         "T-SHRIT_1": "Find us with our ORANGE T-SHIRT  and logo",
         "T-SHRIT_2": "Don’t get confused by others groups.",
-        "TITLE_ABOUT": "WHY CHOOSE US?",
-        "P1_ABOUT": "Wild free walking tour Cusco is operated by a 100% local company, we have been working in Cusco for 3 years. We will explore by foot this magnificent city of Cusco, the capital of the great Inka Empire, called in our Quechua mater language, as QOSQO. (Navel of the world, Center of the Universe). The majestic city of Cusco was the economic, religious, cultural and political epicenter of one of the greatest civilizations in South America.",
-        "P2_ABOUT": "In our free walking tour, which is a 2-hour and 30-minute walk, our authorized and passionate about history local guides, will illustrate to you about the importance of the Andean man and the city of Cusco in the development of tourism in Peru.",
-        "P3_ABOUT": "IMPORTANT: DO NOT get confused by other people who claim to be local guides and you will waste your time with false or google information. Our company is the only local company authorized by the Peruvian government. Any doubts? You can check our real comments from our visitors on our social networks",
-        "FOOTER_ABOUT": "Casio Valdéz - General Manager",
+        "TITLE_ABOUT": "Let's Walk!",
+        "TITLE_ABOUT_2": "The Best Free Walking Tour",
+        "P1_ABOUT": "Wild free walking tour Cusco is operated by a 100% local company, we have been working in Cusco for 3 years now, and We are recognize as one of the best Free Walking Tours in Cusco. We will explore by foot this magnificent city, the capital of the great Inka Empire, called in our Quechua mater language, as QOSQO. (Navel of the world, Center of the Universe).",
+        "P2_ABOUT": "In our free walking tour, which is a 2-hour and 30-minute walk, our authorized and passionate about history local guides, will illustrate to you about all theories around Inka Culture and the influence in the andean cosmovision of today. We want to be the best historical walking tour in town for you.",
+        "P3_ABOUT": "IMPORTANT: Don't waste your time with pseudo-guides. Make sure to get trained guides with fluent English. Any doubts? Check our excellent and real comments of our walkers on our social networks: ",
+        "P4_ABOUT": "Join us to our Free Walking Tour and made your stay worth it. Our guides will give you some value information about different aspects of the andean cosmovision and Inca Culture",
+        "P5_ABOUT": "IMPORTANT: Don't waste your time with pseudo-guides. Make sure to get trained guides with fluent English. Any doubts? Check our excellent and real comments on our social networks: ",
 
         "first_walking": "Walking Tour 10:00 ",
         "tours_subtitle": "by Wild Free Walking Tours - English & Spanish",
-        "paragraph_first_walking": "Our Walking Tours are historical and cultural focused, our licensed guides are prepared to give you important information and facts about our ancestral city, this tour is a great way to start your day in Cusco.",
+        "paragraph_first_walking": "Our Walking Tours are historical and cultural focused, our licensed guides are prepared to give you important information and facts about our ancestral city, this tour is a great way to start your day in Cusco. Besides that you will have great tips about food, places to visit and more to have a great stay here.",
         "book_tour": "Book",
         "Itinerary": "Itinerary",
 
         "second_walking": "Walking Tour 12:30 ",
-        "paragraph_second_walking": "If you missed our first walking tour, don't worry, all our tours are focused in history, traditions and culture. There are some variations in the places we visit, for more information you should check the itinerary for each schedule.",
+        "paragraph_second_walking": "If you missed our first walking tour, don't worry, all our tours are focused in history, traditions and culture. Our local guides are well prepared all your questions about the city and our ancestral culture. There are some variations in the places we visit, for more information you should check the itinerary for each schedule.",
 
         "third_walking": "Walking Tour 15:00 ",
         "paragraph_third_walking": "We will show you the most important and historical places of the ancient capital city of the Incas. A tour, full of history, culture, and traditions.",
@@ -317,6 +320,10 @@ var arrLang = {
         "tour_Q27": "2.- San Pedro Market",
         "tour_A27": "It's a must place to visit, in order to experience local life. The market stands 8 minutes walking from the mainsquare.",
 
+        "GUIDE_1": "Hello guys, my name is DIEGO. I was born in the magical city of cusco. I’m Biologist and professional tour guide here in cusco city,  with my tours you will learn important facts, such us: architecture, history, gastronomy, textile, gastronomy, local traditions and meanwhile, I will give you the best tips to have an amazing stay in the city. You can meet me everyday at our meeting point: Plazoleta Espinar, in front of La Merced Church,  from Monday to Saturday, in order to experience one of the best walking tours in town, the tour will last about 2 hrs through the most important neighborhoods and the tour ends in one of the restobar with an amazing view of the city.",
+        "GUIDE_2": "I’m local professional tour guide. I’m a passionate about my background, that’s why I studied tourism, I’ve been living all my life in Cusco. I love history , archeology, music ,travelling and gastronomy. If you want to know the history of my hometown, I’m willing to take you in a 2h - 2h30 Free walking tour , where you will have unforgettable journey.",
+        "GUIDE_3": "Hi, my name is Isaias, I studied tourism in a local university in Cusco. I love history and culture of my city and even more I love sharing my knowledge with all our visitors , in that way, you can have a unique experience and the opportunity to know the magnificent history of Cusco. Working as a guide at Wild Free Walking Tour Cusco is a great experience, that allows me to explore the living history of this city.",
+        "GUIDE_4": "My name is BRUCE. I’ve traveled through South America as a backpacker and sometimes as tour conductor for  5 years ; then I decided to settle down in cusco to rest of travelling , I started to studying the career called: Official Tour Guided, and I love it, so I’ve decide to stay in Cusco. I graduated as a tour guide, I’m fun, charm, helpful, reliable, self confident, shameless, open-minded, ecologist, minimalist, friendy ,philanthropist, well informed about national and international news. I am into history, economy, politics, sociology, anthropology, spirituality ,literature and philosophy. In my free walking tour I will share all my knowledge with you in a fluent English.",
 
         "T1_FOOTER": "MORE TOURS IN CUSCO...",
         "T2_FOOTER": "CERTIFICATIONS",
@@ -329,6 +336,7 @@ var arrLang = {
         "navbarDropdown": "FreeTours",
         "REVIEWS": "Reseñas",
         "CONTACTNAV": "Contacto",
+        "GUIDES": "Guias",
         "FAQS": "Preguntas",
         "MORETOURS": "Itineraio",
 
@@ -337,11 +345,15 @@ var arrLang = {
 
         "T-SHRIT_1": "Buscanos con nuestro polo y logo",
         "T-SHRIT_2": "No se confunda con otros grupos.",
-        "TITLE_ABOUT": "POR QUÉ ELEGIRNOS?",
-        "P1_ABOUT": "Wild free walking tour cusco es operado por una empresa 100% local, estamos trabajando en Cusco desde hace 3 años. Vamos a explorar a pie esta magnífica y grandiosa cuidad, la capital del grandioso Imperio Inka, denominado en nuestro idioma mater Quechua , como: QOSQO. (Ombligo del mundo, centro del universo). La Majestousa  ciudad del Cusco fue Epicentro económico, religioso, cultural y político de una de las civilizaciones más grandiosa que se desarrolló en Sudamérica.",
-        "P2_ABOUT": "En nuestro recorrido a pie gratuito, que es una caminata de 2 horas y 30 minutos, nuestros guías locales autorizados y apasionados por la historia, le ilustrarán sobre la importancia del hombre andino y de la ciudad del Cusco en el desarrollo de turismo en el Perú",
-        "P3_ABOUT": "IMPORTANTE : NO se confunda con otras personas que dicen ser guías locales y perderá su tiempo con información falsa o googleada. Nuestra empresa es la única empresa local autorizada por el gobierno peruano. Tiene dudas? Puede ver nuestros comentarios reales de nuestros visitantes en : ",
+        "TITLE_ABOUT": "Vamos a caminar!",
+        "TITLE_ABOUT_2": "El Mejor Walking Tour",
+        "P1_ABOUT": "Wild free walking tour cusco es operado por una empresa 100% local, estamos trabajando en Cusco desde hace 3 años y nuestros comentarios positivos en tan poco tiempo, nos colocan como uno de los mejores free walking tour en Cusco. Vamos a explorar a pie esta magnífica y grandiosa cuidad, la capital del grandioso Imperio Inka, denominado en nuestro idioma mater Quechua , como: QOSQO. (Ombligo del mundo, centro del universo).",
+        "P2_ABOUT": "En nuestro recorrido a pie gratuito, que es una caminata de 2 horas y 30 minutos, nuestros guías locales autorizados y apasionados por la historia, le ilustrarán sobre la importancia nuestra cultura Inca y de la influencia en la cosmovisión del hombre andino actual. Queremos ser el mejor free walking tour con contenido historico y cultural para ustedes",
+        "P3_ABOUT": "IMPORTANTE: No pierdas tu tiempo con pseudo-guías. Asegúrese de obtener guías capacitados con inglés fluido. ¿Alguna duda? Consulte nuestros excelentes y reales comentarios en nuestras redes sociales: ",
         "FOOTER_ABOUT": "Casio Valdéz - Gerente General",
+        "P4_ABOUT": "Únase a nosotros en nuestro recorrido a pie gratuito y haga que su estancia valga la pena. Nuestros guías le brindarán información valiosa sobre diferentes aspectos de la cosmovisión andina y la cultura Inca",
+        "P5_ABOUT": "Nuestra empresa ofrece el mejor recorrido a pie posible, para que no te pierdas ningún detalle de la ciudad. No prometemos nada en exceso, solo ofrecemos un recorrido a pie gratuito de nuestra historia y cultura. Somos una empresa altamente recomendada en: ",
+
 
         "CAROUSEL_H2": "Nosotros",
         "CAROUSEL_IMG_1": "El mejor Tour a pie en Cusco",
@@ -355,12 +367,12 @@ var arrLang = {
 
         "first_walking": "Tour a pie 10:00",
         "tours_subtitle": "Por Wild Free Walking Tours - Inglés & Español",
-        "paragraph_first_walking": "Nuestros recorridos a pie tienen un enfoque histórico y cultural, nuestros guías con licencia están preparados para brindarle información importante y datos sobre nuestra ciudad ancestral, este recorrido es una excelente manera de comenzar su día en Cusco.",
+        "paragraph_first_walking": "Nuestros recorridos a pie tienen un enfoque histórico y cultural, nuestros guías con licencia están preparados para brindarle información importante y datos sobre nuestra ciudad ancestral. Aparte de ello usted obtendrá excelentes consejos acerca de lugares para visitar, gastronomía local y muchas más para tener una excelente estadía. Este recorrido es una excelente manera de comenzar su día en Cusco.",
         "book_tour": "Reservar",
         "itinerary": "Itinerario",
 
         "second_walking": "Tour a pie 12:30",
-        "paragraph_second_walking": "Si se perdió nuestro primer recorrido a pie, no se preocupe, todos nuestros recorridos se centran en la historia, las tradiciones y la cultura. Hay algunas variaciones en los lugares que visitamos, para más información debe consultar el itinerario de cada horario.",
+        "paragraph_second_walking": "Si se perdió nuestro primer recorrido a pie, no se preocupe, todos nuestros recorridos se centran en la historia, las tradiciones y la cultura. Nuestros guías locacles están preparados para responder a sus preguntas acerca de la ciudad y nuestra cultura ancestarl. Hay algunas variaciones en los lugares que visitamos, para más información debe consultar el itinerario de cada horario.",
 
         "third_walking": "Tour a pie 15:00",
         "paragraph_third_walking": "Le mostraremos los lugares más importantes e históricos de la antigua capital de los Incas. Un recorrido lleno de historia, cultura y tradiciones.",
@@ -541,6 +553,11 @@ var arrLang = {
 
         "tour_Q27": "2.- Mercado de San Pedro",
         "tour_A27": "Es un lugar de visita obligada para experimentar la vida local. El mercado se encuentra a 8 minutos de la plaza principal.",
+
+        "GUIDE_1": "Hola chicos, mi nombre es DIEGO. Nací en la mágica ciudad del cusco. Soy biólogo y guía profesional en la ciudad de Cusco. En mis recorridos aprenderá datos importantes como nosotros, arquitectura, historia, gastronomía, textiles, gastronomía, tradiciones locales y, mientras tanto, le daré los mejores consejos para tener una estadía increíble en la ciudad. Me encontrarás todos los días, en nuestro punto de encuentro: Plazoleta Espinar,  frente a la iglesia de La Merced, y puedes unirte de lunes a sábado para experimentar uno de los mejores recorridos a pie de la ciudad, el recorrido durará aproximadamente 2 horas a través de los barrios más importantes y terminando en uno de los restobar con una vista increíble de la ciudad.",
+        "GUIDE_2": "Soy guía profesional local. Me apasiona mi profesión, es por eso que estudié turismo, he estado viviendo toda mi vida en Cusco. Me encanta la historia, la arqueología, la música, los viajes y la gastronomía. Si desea conocer la historia de mi ciudad natal, estoy dispuesto a llevarlo en un recorrido a pie gratuito de 2h a 2h30, donde tendrá un recorrido inolvidable.",
+        "GUIDE_3": "Hola, mi nombre es Isaias, estudié turismo en una universidad local en Cusco. Me encanta la historia y la cultura de mi ciudad y aún más me encanta compartir mis conocimientos con todos nuestros visitantes, de esa manera, usted puede tener una experiencia única y la oportunidad de conocer la magnífica historia de Cusco. Trabajar como guía en Wild Free Walking Tour Cusco es una gran experiencia, que me permite explorar la historia viva de esta ciudad.",
+        "GUIDE_4": "Me llamo Bruce. He viajado por América del Sur como mochilero y, a veces, como conductor de tours durante 5 años; luego decidí establecerme en Cusco para descansar de los viajes. Comencé a estudiar la carrera llamada:  Guiado Oficial de Tours, y me encanta, así que decidí quedarme en Cusco y me gradué como guía turístico. Soy una persona divertida, servicial, confiable, seguro de sí mismo, de mente abierta, ecológico, minimalista, amigable, filántropo y bien informado sobre noticias nacionales e internacionales. Me gusta la historia, economía, política, sociología, antropología, espiritualidad, literatura y filosofía. En mi recorrido a pie gratuito compartiré todos mis conocimientos con usted en un inglés fluido.",
 
         "T1_FOOTER": "MAS TOURS EN CUSCO...",
         "T2_FOOTER": "CERTIFICACIONES",
