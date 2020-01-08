@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Free walking tour Cusco, Free walking tours Cusco, Free walking tour in Cusco, Free walking tours in Cusco, Best free tour in Cusco, Best historical walking tour, Free Tour in Cusco, Free tours in Cusco, Free walking tours en español, Cusco free tours, free city tour, Tours by foot, Tour gratis en Cusco, Tour a pie gratis en Cusco, Paseos gratis a pie en Cusco, Free guided Cusco Tour, caminatas gratuitas, locals, culture, history, free pisco sour, 12 angles stone">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
@@ -19,6 +20,8 @@
 
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tours.css">
+    <link rel="stylesheet" href="css/guides.css">
 
     <!--favicon.ico links-->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -41,12 +44,8 @@
 
 <body data-spy="scroll" data-target="#navbar1" data-offset="70">
 
-
     <nav id="navbar1" class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #272727;">
-        <!--#006400;-->
-        <!--<a class="navbar-brand" href="#home">
-                <img src="images/logo.png" height="50" width="50" alt="logo">
-            </a>-->
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -59,8 +58,8 @@
                     <a class="lang nav-item nav-link" id="ABOUT" href="index.html">About us</a>
                     <li class="nav-item dropdown">
                         <a class="lang nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                FreeTours
-                            </a>
+                            FreeTours
+                        </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item link-child" href="tour_one.html">Tour 10:00</a>
                             <a class="dropdown-item link-child" href="tour_second.html">Tour 12:30</a>
@@ -70,7 +69,7 @@
 
                     <a class="lang nav-item nav-link" title="Customer's Reviews" id="REVIEWS" href="index.html">Reviews</a>
                     <a class="lang nav-item nav-link" title="Contact Form" id="CONTACTNAV" href="contact.html">Contact</a>
-                    <a class="lang nav-item nav-link" title="local guides" id="GUIDES" href="guides.html">Meet our Guides</a>
+                    <a class="lang nav-item nav-link" title="local guides" id="GUIDES" href="#">Meet our Guides</a>
                     <a class="lang nav-item nav-link" title="Question & Answers" id="FAQS" href="faqs.html">FAQ's</a>
                 </div>
 
@@ -92,40 +91,90 @@
         </div>
     </nav>
 
-    <div class="container-fluid" id="contact">
-        <div class="row mt-5">
-            <div class="container">
-                <div class="col-md-12">
-                    <h2 class="lang  text-uppercase my-5 font-weight-bold  text-center" data-animation="slide-Down" id="yourForm">Contact</h2>
+    <div class="container guidesCards">
 
-                    <div>
-                        <iframe class="my-google-form" src="https://docs.google.com/forms/d/e/1FAIpQLSevrTQ6-ZN9qdzcqqG-gEHzW1pql9gvPYE8_oaiDM_M09uJ3A/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
-                    </div>
+        <div class="card mb-5">
+            <div class="row no-gutters">
 
-                    <div class="moreInfo text-center mt-5">
-                        <h2 class="lang text-uppercase font-weight-bold" id="MORE_INFO">More information?</h2>
+                <div class="col-md-4 image-guide">
 
+                    <img src="./images/diego1.jpeg" class="card-img" alt="localGuide">
 
-                        <i class="fab fa-whatsapp"></i> <a href="tel:+">+51 974773203</a><br>
-                        <i class="fa fa-envelope"></i> <a href="mailto:wildfreewalkingtours@gmail.com">wildfreewalkingtours@gmail.com</a><br>
-                        <i class="fas fa-globe"></i> <span class="lang" id="ADDRESS">Marquez 219 Street, 2nd Floor-Office 206 </span> <br>
-
-                        <!--<div class="my-4">
-                                    <a href="https://www.facebook.com/WildFreeWalkingTourCusco/" target="_blank"><i class="fab fa-facebook fa-3x pr-4"></i></a>
-                                    <a href="https://wa.me/+51974773203" target="_blank"><i class="fab fa-whatsapp fa-3x pr-4"></i></a>
-                                </div>-->
-                    </div>
                 </div>
-                <div class="col-md-12">
-                    <div class="col-md maps mt-5" id="yourMap">
-                        <h2 class="lang text-uppercase mt-3 font-weight-bold text-center" id="CONTACT_H2_1">Meeting Point</h2>
-                        <iframe class="mt-2" width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Plazoleta%20Espinar%2C%20Cusco&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-                                </iframe>
+
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Diego Astete</h5>
+                        <p class="lang card-text" id="GUIDE_1">
+                            Hello guys, my name is DIEGO. I was born in the magical city of cusco. I am Biologist and professional tour guide here in cusco city, with my tours you will learn important facts, such us: architecture, history, gastronomy, textile, gastronomy, local
+                            traditions and meanwhile, I will give you the best tips to have an amazing stay in the city. You will find me everyday at our meeting point: Plazoleta Espinar, in front of La Merced Church, and you can join me from Monday to
+                            Saturday, to experience one of the best walking tours in town, the tour will last about 2 hrs through the most important neighborhoods and the tour ends in one of the restobar with an amazing view of the city.
+                        </p>
+                        <p class="card-text"><small class="text-muted">Official Local Guide - Wild Free Walking Tours</small></p>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="card mb-5">
+            <div class="row no-gutters">
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Frank Carrillo</h5>
+                        <p class="lang card-text" id="GUIDE_2">
+                            I am local professional tour guide. I’m a passionate about my background, that’s why I studied tourism, I’ve been living all my life in Cusco. I love history , archeology, music ,travelling and gastronomy. If you want to know the history of my hometown,
+                            I’m willing to take you in a 2h - 2h30 Free walking tour , where you will have unforgettable journey.
+                        </p>
+                        <p class="card-text"><small class="text-muted">Official Local Guide - Wild Free Walking Tours</small></p>
+                    </div>
+                </div>
+                <div class="col-md-4 image-guide">
+
+                    <img src="./images/frank1.jpeg" class="card-img" alt="localGuide">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-5">
+            <div class="row no-gutters">
+                <div class="col-md-4 image-guide">
+                    <img src="./images/isaias.jpeg" class="card-img" alt="localGuide">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Isaias Valdivia</h5>
+                        <p class="lang card-text" id="GUIDE_3">
+                            Hi, my name is Isaias, I studied tourism in a local university in Cusco. I love history and culture of my city and even more I love sharing my knowledge with all our visitors , in that way, you can have a unique experience and the opportunity to know
+                            the magnificent history of Cusco. Working as a guide at Wild Free Walking Tour Cusco is a great experience, that allows me to explore the living history of this city.
+                        </p>
+                        <p class="card-text"><small class="text-muted">Official Local Guide - Wild Free Walking Tours</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-5">
+            <div class="row no-gutters">
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Bruce Ortega</h5>
+                        <p class="lang card-text" id="GUIDE_4">
+                            My name is BRUCE. I’ve traveled through South America as a backpacker and sometimes as tour conductor for 5 years ; then I decided to settle down in cusco to rest of travelling , I started to studying the career called: Official Tour Guided, and I love
+                            it, so I’ve decide to stay in Cusco. I graduated as a tour guide, I’m fun, charm, helpful, reliable, self confident, shameless, open-minded, ecologist, minimalist, friendy ,philanthropist, well informed about national and international
+                            news. I am into history, economy, politics, sociology, anthropology, spirituality ,literature and philosophy. In my free walking tour I will share all my knowledge with you in a fluent English.
+                        </p>
+                        <p class="card-text"><small class="text-muted">Official Local Guide - Wild Free Walking Tours</small></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/bruce.jpeg" class="card-img" alt="localGuide">
+                </div>
+            </div>
+        </div>
+
     </div>
+
 
     <footer id="footer" class="footer">
         <div class="container d-sm-flex flex-sm-column flex-md-row flex-lg-row justify-content-around align-content-center">
@@ -173,7 +222,7 @@
                 </nav>
                 <p class="lang thanks mt-5 text-center" id="P_FOOTER">Hey Dear Travellers! Thanks for your preference! You can check more interesting tours and treks at: </p>
                 <div class="text-center">
-                    <span class=""> <a  class="link-agency" href="https://www.wildperutravel.org/"  target="_blank"> Wild Peru Travel</a></span>
+                    <span class=""> <a  class="link-agency" title="Tour Operator Cusco" href="https://www.wildperutravel.org/"  target="_blank"> Wild Peru Travel</a></span>
                 </div>
 
             </div>
@@ -182,7 +231,7 @@
 
         <div class="copyright d-flex flex-column justify-content-center align-items-center text-center">
             <a class="icon-up" href="#home"><i class="fas fa-angle-double-up"></i></a>
-            <p id="copyright"><span>© 2019 <a href="">Wild Free Walking Tours.</a></span> Powered By <span> <a href="https://www.wildperutravel.org/" target="_blank"> Wild Peru Travel</a></span></p>
+            <p id="copyright"><span>© 2019 <a href="">Wild Free Walking Tours.</a></span> Powered By <span> <a href="https://www.wildperutravel.org/" title="Tour Operator Cusco" target="_blank"> Wild Peru Travel</a></span></p>
         </div>
     </footer>
 
@@ -206,4 +255,4 @@
 
 </body>
 
-</html
+</html>
