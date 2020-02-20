@@ -1,6 +1,11 @@
-
 /*card styles starts*/
+
 #tours {
-    background-color: white;/*#CAFAFE*/
+    background-color: white;
+    /*#CAFAFE*/
     padding-bottom: 5rem;
+}
+
+#details .container .list-details {
+    list-style: circle;
 }
